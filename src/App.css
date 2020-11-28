@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+.header-color{
+    background: #5614B0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DBD65C, #5614B0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DBD65C, #5614B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+.landing-grid{
+    /*background: #114357;   fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #F29492, #114357);   Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #F29492, #114357);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background: #5614B0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DBD65C, #5614B0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DBD65C, #5614B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-align: center;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*About me*/
+.about-right-col{
+    background: #27221F;
+    color:white;
+    padding: 2em;
+}
+/* Contat Page*/
+.contact-body{
+    margin: auto;
+    /*background: grey;*/
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    padding-top: 2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    /*border: 2px solid red;*/
+    margin-bottom: 25px;
+}
+.contact-grid h2{
+    font-family: 'Anton', sans-serif;
+}
+.contact-grid p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contact-grid hr{ 
+    border-top: 5px dotted black;
+    width: 50%;
+    margin:auto ;
+
+}
+.contact-list i{
+    font-size: 66px;
+    padding-right: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+/* Contat Page*/
+
+.mypicture{
+    
+    height: 250px;
+    padding-top: 2em;
+    clip-path: circle();
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-text{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    
+    
+}
+.banner-text h1{
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-text hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+
+}
+.social-links i{
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
+
+.rambo{
+    height: 200px;
+    clip-path: circle();
+
 }
